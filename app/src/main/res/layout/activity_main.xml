@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCCCCC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="第一个TextView"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/textview_box"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="第二个TextView"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/textview_box"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="第三个TextView"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/textview_box"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
